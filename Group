@@ -1,0 +1,14 @@
+.event-price.ng-star-inserted , .start-date.ng-star-inserted, .event__whenAndWhere {
+    display: none!important;
+}
+
+/*This will remove the first item in the filter in this case that's the sort by date all dates, upcoming, today, tomorrow pick a day*/
+.category-group:nth-child(1) {
+     display: none!important; 
+}
+
+
+/*This will remove the last item from the side bar in thi case sort by "Date"*/
+.category-group:nth-last-child(1){
+    display: none!important;
+}
